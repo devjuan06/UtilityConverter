@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.ConverterCurrency.GUI.MainPanel">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="6" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="126" width="610" height="717"/>
+    </constraints>
+    <properties>
+      <background color="-12892339"/>
+      <doubleBuffered value="true"/>
+      <enabled value="true"/>
+      <focusable value="true"/>
+      <inheritsPopupMenu value="false"/>
+      <name value=""/>
+      <opaque value="true"/>
+      <requestFocusEnabled value="true"/>
+      <verifyInputWhenFocusTarget value="true"/>
+      <visible value="true"/>
+    </properties>
+    <border type="none" title-justification="2"/>
+    <children>
+      <component id="c263b" class="javax.swing.JLabel" binding="BackGround">
+        <constraints>
+          <grid row="1" column="0" row-span="3" col-span="3" vsize-policy="1" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12892339"/>
+          <enabled value="false"/>
+          <foreground color="-15196893"/>
+          <icon value="JavaLog.png"/>
+          <text value=""/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="facea" class="javax.swing.JLabel" binding="Title">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="36" style="1"/>
+          <foreground color="-5658199"/>
+          <text value="Utility Converter"/>
+        </properties>
+      </component>
+      <component id="3fd5d" class="javax.swing.JButton" binding="btnGo">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12892339"/>
+          <enabled value="true"/>
+          <font name="Droid Sans Mono" size="30" style="2"/>
+          <foreground color="-12892339"/>
+          <text value="Currency"/>
+        </properties>
+      </component>
+      <component id="912bd" class="javax.swing.JLabel" binding="Info1">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5658199"/>
+          <enabled value="true"/>
+          <font name="JetBrains Mono" size="14" style="1"/>
+          <foreground color="-5658199"/>
+          <text value="Alura Challenger G5"/>
+        </properties>
+      </component>
+      <component id="ee8d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5658199"/>
+          <font name="JetBrains Mono" size="14" style="1"/>
+          <foreground color="-5658199"/>
+          <text value="Dev: Juan Higuita"/>
+        </properties>
+      </component>
+      <component id="454fc" class="javax.swing.JButton" binding="btnTemp">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12892339"/>
+          <enabled value="true"/>
+          <font name="Droid Sans Mono" size="30" style="2"/>
+          <foreground color="-12892339"/>
+          <text value="Temperature"/>
+        </properties>
+      </component>
+      <component id="1d0fc" class="javax.swing.JButton" binding="btnClose">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12892339"/>
+          <enabled value="true"/>
+          <font name="Droid Sans Mono" size="30" style="2"/>
+          <foreground color="-12892339"/>
+          <hideActionText value="true"/>
+          <text value="Exit"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
