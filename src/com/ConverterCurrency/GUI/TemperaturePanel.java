@@ -6,7 +6,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
-
 public class TemperaturePanel extends JDialog {
     private JPanel Temperature;
     private JLabel BackGround;
@@ -44,9 +43,11 @@ public class TemperaturePanel extends JDialog {
             @Override
             public void keyTyped(KeyEvent e) {
                 char caracter = e.getKeyChar();
-                if (caracter < '0' || caracter > '9'){
-                    e.consume();
-                    java.awt.Toolkit.getDefaultToolkit().beep();
+                if (!(caracter == '-')){
+                    if (caracter < '0' || caracter > '9'){
+                        e.consume();
+                        java.awt.Toolkit.getDefaultToolkit().beep();
+                    }
                 }
             }
         });
@@ -54,9 +55,11 @@ public class TemperaturePanel extends JDialog {
             @Override
             public void keyTyped(KeyEvent e) {
                 char caracter = e.getKeyChar();
-                if (caracter < '0' || caracter > '9'){
-                    e.consume();
-                    java.awt.Toolkit.getDefaultToolkit().beep();
+                if (!(caracter == '-')) {
+                    if (caracter < '0' || caracter > '9') {
+                        e.consume();
+                        java.awt.Toolkit.getDefaultToolkit().beep();
+                    }
                 }
             }
         });
